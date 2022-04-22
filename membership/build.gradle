@@ -7,12 +7,14 @@ plugins {
 description 'Corda Membership'
 
 dependencies {
-    api platform(project(':corda-api'))
     api 'net.corda.kotlin:kotlin-stdlib-jdk8-osgi'
 
     compileOnly 'org.osgi:osgi.annotation'
 
+    api platform(project(':corda-api'))
     api project(':base')
+    api project(':crypto')
+    api project(':data:avro-schema')
 
     testImplementation "org.assertj:assertj-core:$assertjVersion"
 }

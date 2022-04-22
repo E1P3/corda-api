@@ -1,0 +1,8 @@
+{
+  "type": "record",
+  "name": "MembershipEvent",
+  "namespace": "net.corda.data.membership.event",
+  "doc": "Wrapper schema around the various types of membership events available for consumption throughout the system.",
+  "fields": [
+  ]
+}
