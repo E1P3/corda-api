@@ -1,0 +1,7 @@
+{
+  "type": "record",
+  "name": "GetAliasesRpcRequest",
+  "namespace": "net.corda.data.membership.rpc.certificates.request",
+  "doc": "RPC request to get a certificate.",
+  "fields": []
+}

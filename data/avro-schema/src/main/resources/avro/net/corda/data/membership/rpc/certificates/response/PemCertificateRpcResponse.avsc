@@ -1,13 +1,13 @@
 {
   "type": "record",
-  "name": "ImportCertificateRpcResponse",
+  "name": "PemCertificateRpcResponse",
   "namespace": "net.corda.data.membership.rpc.certificates.response",
-  "doc": "RPC operations response for import certificate.",
+  "doc": "RPC operations response with raw PEM certificate.",
   "fields": [
     {
       "name": "previousCertificate",
       "doc": "The previous certificate with that alias (in PEM format).",
-      "type": ["string", "null"]
+      "type": "string"
     }
   ]
 }

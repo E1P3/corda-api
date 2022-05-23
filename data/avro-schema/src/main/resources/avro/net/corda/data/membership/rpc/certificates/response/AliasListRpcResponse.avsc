@@ -1,0 +1,16 @@
+{
+  "type": "record",
+  "name": "AliasListRpcResponse",
+  "namespace": "net.corda.data.membership.rpc.certificates.response",
+  "doc": "RPC operations response with list of aliases.",
+  "fields": [
+    {
+      "name": "aliases",
+      "doc": "A list of aliases.",
+      "type": {
+        "type": "array",
+        "items": "string"
+      }
+    }
+  ]
+}

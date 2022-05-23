@@ -133,6 +133,7 @@ class Schemas {
             const val CPI_WHITELIST_TOPIC = "membership.group.cpi.whitelists"
             const val PROPOSAL_TOPIC = "membership.proposals"
             const val MEMBERSHIP_RPC_TOPIC = "membership.rpc.ops"
+            const val MEMBERSHIP_RPC_CERTIFICATES_TOPIC = "membership.rpc.certificates.ops"
 
             // Member messaging topics
             const val UPDATE_TOPIC = "membership.update"

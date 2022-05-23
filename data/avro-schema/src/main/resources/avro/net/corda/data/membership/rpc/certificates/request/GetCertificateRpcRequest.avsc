@@ -1,17 +1,12 @@
 {
   "type": "record",
-  "name": "ImportCertificateRpcRequest",
+  "name": "GetCertificateRpcRequest",
   "namespace": "net.corda.data.membership.rpc.certificates.request",
-  "doc": "RPC request to import a certificate.",
+  "doc": "RPC request to get a certificate.",
   "fields": [
     {
       "name": "alias",
       "doc": "The certificate alias.",
-      "type": "string"
-    },
-    {
-      "name": "certificate",
-      "doc": "The certificate in PEM format.",
       "type": "string"
     }
   ]
